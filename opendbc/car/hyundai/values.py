@@ -432,7 +432,7 @@ class CAR(Platforms):
                      car_parts=CarParts.common([CarHarness.hyundai_n])),
     ],
     CarSpecs(mass=2175, wheelbase=2.97, steerRatio=16, tireStiffnessFactor=0.65),
-    flags=HyundaiFlags.CANFD_ANGLE_STEERING | HyundaiFlags.CANFD_LKA_STEER_MSG,
+    flags=HyundaiFlags.CANFD_ANGLE_STEERING,
   )
   HYUNDAI_VELOSTER = HyundaiPlatformConfig(
     [HyundaiCarDocs("Hyundai Veloster 2019-20", min_enable_speed=5. * CV.MPH_TO_MS, car_parts=CarParts.common([CarHarness.hyundai_e]))],
