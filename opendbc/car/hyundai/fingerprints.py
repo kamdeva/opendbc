@@ -501,7 +501,7 @@ FW_VERSIONS = {
       b'\xf1\x00LX31.001.011.002551000HKP_LX325_50430099211P9020',
     ],
     (Ecu.fwdRadar, 0x7d0, None): [
-      b'\xf1\x00LX3__               1.00 1.00 99110P9010         ',
+      b'\xf1\x00LX3__               1.00 1.00 99110P9010          ',
     ],
     (Ecu.eps, 0x7d4, None): [
       b'\xf1\x00LX3 MDPS R 1.00 1.02 57700DU000  2561_LX3kH_RLN102',

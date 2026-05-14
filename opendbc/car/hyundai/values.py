@@ -431,7 +431,7 @@ class CAR(Platforms):
       HyundaiCarDocs("Hyundai Palisade Hybrid (without HDA II, LFA2) 2026", "Lane Follow Assist 2",
                      car_parts=CarParts.common([CarHarness.hyundai_n])),
     ],
-    CarSpecs(mass=2160, wheelbase=2.97, steerRatio=16, tireStiffnessFactor=0.65),
+    CarSpecs(mass=2175, wheelbase=2.97, steerRatio=16, tireStiffnessFactor=0.65),
     flags=HyundaiFlags.CANFD_ANGLE_STEERING | HyundaiFlags.CCNC,
   )
   HYUNDAI_VELOSTER = HyundaiPlatformConfig(
@@ -948,7 +948,7 @@ DATE_FW_PATTERN = re.compile(b'(?<=[ -])([0-9]{6}$)')
 PART_NUMBER_FW_PATTERN = re.compile(b'(?<=[0-9][.,][0-9]{2} )([0-9]{5}[-/]?[A-Z][A-Z0-9]{3}[0-9])')
 
 # We've seen both ICE and hybrid for these platforms, and they have hybrid descriptors (e.g. MQ4 vs MQ4H)
-CANFD_FUZZY_WHITELIST = {CAR.KIA_SORENTO_4TH_GEN, CAR.KIA_SORENTO_HEV_4TH_GEN, CAR.KIA_K8_HEV_1ST_GEN,
+CANFD_FUZZY_WHITELIST = {CAR.KIA_SORENTO_4TH_GEN, CAR.KIA_SORENTO_HEV_4TH_GEN, CAR.KIA_K8_HEV_1ST_GEN, CAR.HYUNDAI_PALISADE_HEV_LX3,
                          # TODO: the hybrid variant is not out yet
                          CAR.KIA_CARNIVAL_4TH_GEN}
 
