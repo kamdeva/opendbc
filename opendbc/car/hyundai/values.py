@@ -852,14 +852,6 @@ class CAR(Platforms):
     sp_flags=HyundaiFlagsSP.NON_SCC_RADAR_FCA,
   )
 
-  HYUNDAI_PALISADE_LX3_HEV = HyundaiCanFDPlatformConfig(
-    [
-      HyundaiCarDocs("Hyundai Palisade Hybrid 2026", "All",
-                     car_parts=CarParts.common([CarHarness.hyundai_n])),
-    ],
-    CarSpecs(mass=2270., wheelbase=2.90, steerRatio=15.6, tireStiffnessFactor=0.5),
-    flags=HyundaiFlags.CANFD_ANGLE_STEERING | HyundaiFlags.HYBRID,
-  )
 
 
 
