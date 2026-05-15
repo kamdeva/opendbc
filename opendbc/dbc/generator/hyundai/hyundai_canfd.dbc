@@ -1195,3 +1195,18 @@ VAL_ 1041 DRIVER_REAR_DOOR 0 "Closed" 1 "Opened";
 VAL_ 1041 PASSENGER_REAR_DOOR 0 "Closed" 1 "Opened";
 VAL_ 1144 DRIVE_MODE2 3 "Set Sport" 1 "Set Normal" 2 "Set Eco";
 VAL_ 1240 DISTANCE_UNIT 1 "Miles" 0 "Kilometers";
+
+
+BO_ 832 LFA: 32 EON
+ SG_ CHECKSUM : 0|16@1+ (1,0) [0|65535] "" XXX
+ SG_ FRAME_VALID : 32|8@1+ (1,0) [0|255] "" XXX
+ SG_ MSG_ECHO : 64|8@1+ (1,0) [0|255] "" XXX
+ SG_ GAIN_0 : 88|8@1+ (1,0) [0|255] "" XXX
+ SG_ GAIN_1 : 96|8@1+ (1,0) [0|255] "" XXX
+ SG_ GAIN_2 : 104|8@1+ (1,0) [0|255] "" XXX
+ SG_ GAIN_3 : 112|8@1+ (1,0) [0|255] "" XXX
+ SG_ BASELINE : 120|8@1+ (1,0) [0|255] "" XXX
+ SG_ COUNTER : 128|8@1+ (1,0) [0|255] "" XXX
+ SG_ ENGAGE_HINT : 136|8@1+ (1,0) [0|255] "" XXX
+ SG_ STEER_ANGLE_CMD : 144|16@1+ (0.1,0) [-3276.8|3276.7] "deg" XXX
+ SG_ LAT_ACTIVE : 160|1@1+ (1,0) [0|1] "" XXX

@@ -319,6 +319,13 @@ static safety_config hyundai_canfd_init(uint16_t param) {
     HYUNDAI_CANFD_LKA_STEER_MSG_COMMON_TX_MSGS(0, 1)
   };
 
+const CanMsg HYUNDAI_CANFD_ANGLE_TX_MSGS[] = {
+  {0x340, 2, 32},  // LFA angle command   - bus 2
+  {0x1E0, 2, 16},  // LFAHDA_CLUSTER      - bus 2
+  {0x1A0, 2, 32},  // CRUISE_INFO override
+  {0x4F1, 2, 16},  // CRUISE_BUTTONS injection
+};
+
   static const CanMsg HYUNDAI_CANFD_LKA_STEER_MSG_ALT_TX_MSGS[] = {
     HYUNDAI_CANFD_LKA_STEER_MSG_ALT_COMMON_TX_MSGS(0, 1)
   };
