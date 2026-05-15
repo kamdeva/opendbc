@@ -858,9 +858,7 @@ class CAR(Platforms):
                      car_parts=CarParts.common([CarHarness.hyundai_n])),
     ],
     CarSpecs(mass=2270., wheelbase=2.90, steerRatio=15.6, tireStiffnessFactor=0.5),
-    flags=(HyundaiFlags.CANFD_HDA2
-         | HyundaiFlags.CANFD_ANGLE_STEERING
-         | HyundaiFlags.HYBRID),
+    flags=HyundaiFlags.CANFD_ANGLE_STEERING | HyundaiFlags.HYBRID,
   )
 
 
